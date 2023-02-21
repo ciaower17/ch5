@@ -15,15 +15,18 @@ body {
 .sed {
     background-color: hsl(31, 77%, 52%);
     border-radius: 12px 0 0 12px;
+    padding-bottom: 20px;
 }
 
 .suv {
     background-color: hsl(184, 100%, 22%);
+    padding-bottom: 20px;
 }
 
 .lux {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 12px 12px 0;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -73,7 +76,7 @@ h1 {
 @media (max-width: 992px) {
     .big {
         padding-top: 3rem;
-        max-width: 60%;
+        max-width: 65%;
         height: 100rem;
         color: white;
         flex-direction: column;
