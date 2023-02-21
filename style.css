@@ -1,0 +1,92 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    max-width: 90vh;
+    height: 50vh;
+    color: white;
+    flex-direction: row;
+}
+
+.sed {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 12px 0 0 12px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.lux {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 12px 12px 0;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.85rem;
+    padding-top: 1.5rem;
+    width: 85%;
+    line-height: 2;
+    padding-bottom: 3rem;
+}
+
+.col {
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.text {
+    padding-top: 2.1rem;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 3rem;
+    width: 55%;
+    height: 11%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
+}
+
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 992px) {
+    .big {
+        padding-top: 3rem;
+        max-width: 60%;
+        height: 100rem;
+        color: white;
+        padding-bottom: 3rem;
+    }
+    .sed {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 12px 12px 0 0;
+    }
+    .suv {
+        background-color: hsl(184, 100%, 22%);
+    }
+    .lux {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 0 12px 12px;
+    }
+}
